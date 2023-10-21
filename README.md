@@ -9,7 +9,7 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 ## Projects
 
 ### Coffee Shop UI
-![Screenshot_1697877765](https://github.com/abdulsalamdeveloper1999/ui_portfolio/assets/114761249/b5e82e8d-0208-4dbf-8c11-0043d54659c7)
+![Untitled-1](https://github.com/abdulsalamdeveloper1999/ui_portfolio/assets/114761249/03f060a8-870e-4f40-8bf4-ce88cc43ebc2)
 
 
 

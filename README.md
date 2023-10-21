@@ -14,8 +14,6 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 
 
 - **Description:** This project presents the user interface for a Coffee Shop mobile app. It demonstrates a visually appealing UI design and provides a smooth user experience.
-- **How to Run:** Follow the instructions in the [Coffee Shop README](projects/coffee_shop/README.md).
-
 
 ...
 

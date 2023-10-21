@@ -20,7 +20,7 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 
 If you have any questions or would like to get in touch with me, feel free to reach out:
 
-- Email: abdulsalamdeveloper1999r@gmail.com
+- Email: abdulsalamdeveloper1999@gmail.com
 - LinkedIn: [[LinkeddIn](https://www.linkedin.com/in/abdul-salam-432b4a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)]()
 - GitHub: [[GitHub Profile](https://github.com/abdulsalamdeveloper1999)]()
 

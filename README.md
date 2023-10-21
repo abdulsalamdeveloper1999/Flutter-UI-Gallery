@@ -22,6 +22,6 @@ If you have any questions or would like to get in touch with me, feel free to re
 
 - Email: abdulsalamdeveloper1999@gmail.com
 - LinkedIn: [[LinkeddIn](https://www.linkedin.com/in/abdul-salam-432b4a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)]()
-- GitHub: [[GitHub Profile](https://github.com/abdulsalamdeveloper1999)]()
+- GitHub: [[GitHub](https://github.com/abdulsalamdeveloper1999)]()
 
 I hope you enjoy exploring my Flutter UI portfolio, and it provides you with a comprehensive view of my UI design and Flutter development skills. Thank you for checking it out!

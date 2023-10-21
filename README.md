@@ -15,15 +15,13 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 
 - **Description:** This project presents the user interface for a Coffee Shop mobile app. It demonstrates a visually appealing UI design and provides a smooth user experience.
 
-...
-
 
 ## Contact
 
 If you have any questions or would like to get in touch with me, feel free to reach out:
 
 - Email: abdulsalamdeveloper1999r@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/abdul-salam-432b4a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-- GitHub: [Your GitHub Profile](https://github.com/abdulsalamdeveloper1999)
+- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/abdul-salam-432b4a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)]()
+- GitHub: [[Your GitHub Profile](https://github.com/abdulsalamdeveloper1999)]()
 
 I hope you enjoy exploring my Flutter UI portfolio, and it provides you with a comprehensive view of my UI design and Flutter development skills. Thank you for checking it out!

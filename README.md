@@ -15,7 +15,8 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 - **Description:** This project presents the user interface for a Coffee Shop mobile app. It demonstrates a visually appealing UI design and provides a smooth user experience.
 
 ### Sushi Man UI
-### ![sushi](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/d135af2f-7c7f-4614-8344-1a6102c53f14)
+![sushi-min](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/28c1ff38-0ec4-4155-b52b-e53a7bbb0b70)
+
 
 - **Description:** Sushi Man is a user interface for a Chinese restaurant app that specializes in sushi and other delicious Chinese cuisine. This project offers an intuitive and visually appealing UI design to help users explore, search, and order their favorite sushi dishes.
 

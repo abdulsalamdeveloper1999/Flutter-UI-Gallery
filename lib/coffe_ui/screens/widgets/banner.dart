@@ -20,9 +20,9 @@ class BannerWidget extends StatelessWidget {
               margin: const EdgeInsets.only(left: 20, right: 20),
               height: size.height * 0.06,
               width: double.maxFinite,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: AppColors.kcardColor,
-                borderRadius: const BorderRadius.only(
+                borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(15),
                   topRight: Radius.circular(15),
                   bottomRight: Radius.circular(15),
@@ -33,9 +33,9 @@ class BannerWidget extends StatelessWidget {
               margin: const EdgeInsets.only(left: 20, right: 20),
               height: size.height * 0.05,
               width: size.width * 0.85,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: AppColors.kcardColor,
-                borderRadius: const BorderRadius.only(
+                borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(15),
                   bottomRight: Radius.circular(15),
                 ),
@@ -70,7 +70,7 @@ class BannerWidget extends StatelessWidget {
                   ],
                 ),
                 Space(width: size.width * 0.2),
-                Column(
+                const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -79,7 +79,7 @@ class BannerWidget extends StatelessWidget {
                       decoration: TextDecoration.lineThrough,
                       color: AppColors.kgreyColor,
                     ),
-                    const CustomText(
+                    CustomText(
                       text: '12 Usd',
                       weight: FontWeight.w500,
                     ),
@@ -93,19 +93,19 @@ class BannerWidget extends StatelessWidget {
           child: Container(
             height: 40,
             width: 50,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               boxShadow: [
                 BoxShadow(
                   color: AppColors.kprimaryColor,
                   blurRadius: 0,
                   spreadRadius: 2,
-                  offset: const Offset(-2, 0),
+                  offset: Offset(-2, 0),
                 ),
               ],
               color: AppColors.kbrown2,
               shape: BoxShape.circle,
             ),
-            child: Icon(
+            child: const Icon(
               Icons.arrow_forward,
               color: AppColors.kwhiteColor,
             ),

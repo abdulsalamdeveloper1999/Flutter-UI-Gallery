@@ -24,9 +24,9 @@ class _BottomNavigtationWidgetState extends State<BottomNavigtationWidget> {
           Container(
             height: 70,
             width: double.infinity,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: AppColors.kbottomColor,
-              borderRadius: const BorderRadius.only(
+              borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(100),
                 topRight: Radius.circular(100),
               ),

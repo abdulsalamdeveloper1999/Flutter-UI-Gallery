@@ -24,13 +24,13 @@ class HeaderWidget extends StatelessWidget {
             children: [
               Container(
                 padding: const EdgeInsets.all(2),
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   shape: BoxShape.circle,
                   color: AppColors.kgreyColor,
                 ),
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundColor: AppColors.kbrown2,
-                  backgroundImage: const AssetImage('assets/dp.jpg'),
+                  backgroundImage: AssetImage('assets/dp.jpg'),
                 ),
               ),
               const Space(
@@ -46,14 +46,14 @@ class HeaderWidget extends StatelessWidget {
                     weight: FontWeight.bold,
                   ),
                   const Space(height: 2),
-                  Row(
+                  const Row(
                     children: [
                       Icon(
                         Icons.place,
                         size: 16,
                         color: AppColors.kgreyColor,
                       ),
-                      const Space(width: 5),
+                      Space(width: 5),
                       CustomText(
                         text: 'Lviv ,Ukrain',
                         size: 14,
@@ -65,7 +65,7 @@ class HeaderWidget extends StatelessWidget {
               ),
             ],
           ),
-          Stack(
+          const Stack(
             children: [
               Positioned(
                 right: 0,

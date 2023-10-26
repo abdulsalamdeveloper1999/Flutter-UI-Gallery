@@ -22,17 +22,51 @@
 //     );
 //   }
 // }
+
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'chineese_restaurant_app_ui/core/controllers/shop_controller.dart';
-import 'chineese_restaurant_app_ui/core/helper/helper_class.dart';
-import 'chineese_restaurant_app_ui/core/utils/routes.dart';
+import 'ecommerce_shop_app_bloc/logic/cartBloc/cart_bloc_bloc.dart';
+import 'ecommerce_shop_app_bloc/logic/get_api_bloc/get_api_bloc.dart';
+import 'ecommerce_shop_app_bloc/pages/onboard/onboard_screen.dart';
 
-Helper dep = Helper();
+///sushi man
+// import 'package:flutter/material.dart';
+// import 'package:get/get.dart';
+
+// import 'chineese_restaurant_app_ui/core/controllers/shop_controller.dart';
+// import 'chineese_restaurant_app_ui/core/helper/helper_class.dart';
+// import 'chineese_restaurant_app_ui/core/utils/routes.dart';
+
+// Helper dep = Helper();
+// void main() {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   dep.init();
+//   runApp(const MyMain());
+// }
+
+// class MyMain extends StatelessWidget {
+//   const MyMain({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     Get.find<ShopController>();
+//     return GetMaterialApp(
+//       initialRoute: AppRoutes.initial,
+//       getPages: AppRoutes.routes,
+//       debugShowCheckedModeBanner: false,
+//       title: 'Restaurant App',
+//       theme: ThemeData(
+//         useMaterial3: true,
+//       ),
+//     );
+//   }
+// }
+
+///Grocery App
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  dep.init();
   runApp(const MyMain());
 }
 
@@ -41,14 +75,20 @@ class MyMain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Get.find<ShopController>();
-    return GetMaterialApp(
-      initialRoute: AppRoutes.initial,
-      getPages: AppRoutes.routes,
-      debugShowCheckedModeBanner: false,
-      title: 'Restaurant App',
-      theme: ThemeData(
-        useMaterial3: true,
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+          create: (context) => GetApiBloc(),
+        ),
+        BlocProvider(
+          create: (context) => CartBloc(),
+        ),
+      ],
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'E-commerce App',
+        theme: ThemeData(useMaterial3: true),
+        home: const OnboardScreen(),
       ),
     );
   }

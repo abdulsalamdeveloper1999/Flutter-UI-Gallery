@@ -8,7 +8,7 @@ class CategoryRow extends StatefulWidget {
   const CategoryRow({super.key});
 
   @override
-  _CategoryRowState createState() => _CategoryRowState();
+  State<CategoryRow> createState() => _CategoryRowState();
 }
 
 class _CategoryRowState extends State<CategoryRow> {

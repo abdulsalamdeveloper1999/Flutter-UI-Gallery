@@ -12,7 +12,11 @@ class CustomText extends StatelessWidget {
     this.weight,
     this.decoration,
     this.color = Colors.white,
+    this.softWrap = true,
+    this.fontFamily,
   });
+  final String? fontFamily;
+  final bool? softWrap;
   final TextDecoration? decoration;
   final Color? color;
   final FontWeight? weight;
@@ -26,13 +30,15 @@ class CustomText extends StatelessWidget {
     return Text(
       text,
       textAlign: align,
-      overflow: TextOverflow.ellipsis,
+      softWrap: softWrap,
+      overflow: overflow,
       style: TextStyle(
         decoration: decoration,
         color: color,
         decorationColor: AppColors.kgreyColor,
         fontWeight: weight,
         fontSize: size,
+        fontFamily: fontFamily,
       ),
     );
   }

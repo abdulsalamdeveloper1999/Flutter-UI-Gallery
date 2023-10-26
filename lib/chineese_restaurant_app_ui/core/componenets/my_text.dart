@@ -4,11 +4,11 @@ class MyText extends StatelessWidget {
   final String text;
   final FontWeight? weight;
   final Color? color;
-  var overflow;
-  final size;
-  var fontFamily;
-  double? height;
-  MyText({
+  final TextOverflow? overflow;
+  final double? size;
+  final String? fontFamily;
+  final double? height;
+  const MyText({
     this.fontFamily,
     super.key,
     this.height,

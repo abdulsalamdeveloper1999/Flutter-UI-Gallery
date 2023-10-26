@@ -20,6 +20,20 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 
 - **Description:** Sushi Man is a user interface for a Chinese restaurant app that specializes in sushi and other delicious Chinese cuisine. This project offers an intuitive and visually appealing UI design to help users explore, search, and order their favorite sushi dishes.
 
+### Simple E-Commerce Flutter App
+![e commerce](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/ba70296d-021f-448c-a9b4-477659afc19b)
+
+
+
+## Features
+
+- Fetches product data from a REST API.
+- Displays a list of products with their name and price.
+- Allows users to add products to a shopping cart.
+- Allows users to remove products from the shopping cart.
+- Displays the total price of items in the shopping cart.
+
+- **Description:** A simple Flutter e-commerce app that fetches products from a REST API, displays them on the screen with their name and price, and allows users to add and remove items from the shopping cart. This app does not include user management or login/sign-up functionality.
 
 
 ## Contact

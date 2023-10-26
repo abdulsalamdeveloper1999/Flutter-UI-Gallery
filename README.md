@@ -28,10 +28,10 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 ## Features
 
 - Fetches product data from a REST API.
-- Displays a list of products with their name and price.
-- Allows users to add products to a shopping cart.
-- Allows users to remove products from the shopping cart.
-- Displays the total price of items in the shopping cart.
+- Displays a list of products with their name and price using bloc repo and bloc state management.
+- Allows users to add products to a shopping cart using bloc state management.
+- Allows users to remove products from the shopping cart using bloc state management.
+- Displays the total price of items in the shopping cart using bloc state management.
 
 - **Description:** A simple Flutter e-commerce app that fetches products from a REST API, displays them on the screen with their name and price, and allows users to add and remove items from the shopping cart. This app does not include user management or login/sign-up functionality.
 

@@ -23,8 +23,6 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 ### Simple E-Commerce Flutter App
 ![e commerce](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/ba70296d-021f-448c-a9b4-477659afc19b)
 
-
-
 ## Features
 
 - Fetches product data from a REST API.
@@ -34,6 +32,13 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 - Displays the total price of items in the shopping cart using bloc state management.
 
 - **Description:** A simple Flutter e-commerce app that fetches products from a REST API, displays them on the screen with their name and price, and allows users to add and remove items from the shopping cart. This app does not include user management or login/sign-up functionality.
+
+
+### Expense Tracker App
+![tracker app](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/80cc0d7d-4585-406a-8c73-c0605bbeb9c8)
+
+
+- **Description:** Introducing my latest creation, an Expense Tracker app built with Flutter. This app enables users to efficiently manage their expenses locally, utilizing the powerful Hive database feature. Users can add, delete, and meticulously track their daily and weekly expenses. What's more, I've made the source code available on GitHub, so you can explore, learn, and even incorporate these features into other apps, like restaurant point-of-sale systems and beyond. It's a versatile tool for expense tracking and beyond!
 
 
 ## Contact

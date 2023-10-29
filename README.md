@@ -1,4 +1,4 @@
-# Flutter UI Portfolio
+![4 mobs mockup](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/0b56f77b-e390-4af4-9e37-0302fd31218b)# Flutter UI Portfolio
 
 Welcome to my Flutter UI Portfolio! This repository serves as a collection of various UI projects created using Flutter. Each project within this portfolio showcases my skills in UI design and Flutter development.
 
@@ -35,7 +35,7 @@ This GitHub repository is a collection of Flutter UI projects that I have develo
 
 
 ### Expense Tracker App
-![tracker app](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/80cc0d7d-4585-406a-8c73-c0605bbeb9c8)
+![4 mobs mockup](https://github.com/abdulsalamdeveloper1999/Flutter-UI-Gallery/assets/114761249/2ce5091f-c57f-4801-b4b5-241ed8067cda)
 
 
 - **Description:** Introducing my latest creation, an Expense Tracker app built with Flutter. This app enables users to efficiently manage their expenses locally, utilizing the powerful Hive database feature. Users can add, delete, and meticulously track their daily and weekly expenses. What's more, I've made the source code available on GitHub, so you can explore, learn, and even incorporate these features into other apps, like restaurant point-of-sale systems and beyond. It's a versatile tool for expense tracking and beyond!

@@ -24,11 +24,14 @@
 // }
 
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_ui_portfolio/expense_tracker_app/data/expense_data.dart';
+import 'package:flutter_ui_portfolio/expense_tracker_app/pages/splash/splash_screen.dart';
+import 'package:flutter_ui_portfolio/utils/colors.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
-import 'ecommerce_shop_app_bloc/logic/cartBloc/cart_bloc_bloc.dart';
-import 'ecommerce_shop_app_bloc/logic/get_api_bloc/get_api_bloc.dart';
-import 'ecommerce_shop_app_bloc/pages/onboard/onboard_screen.dart';
+import 'package:provider/provider.dart';
+
+import 'expense_tracker_app/utils/constants.dart';
 
 ///sushi man
 // import 'package:flutter/material.dart';
@@ -63,10 +66,46 @@ import 'ecommerce_shop_app_bloc/pages/onboard/onboard_screen.dart';
 //   }
 // }
 
-///Grocery App
+// ///Grocery App
 
-void main() {
+// void main() {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   runApp(const MyMain());
+// }
+
+// class MyMain extends StatelessWidget {
+//   const MyMain({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MultiBlocProvider(
+//       providers: [
+//         BlocProvider(
+//           create: (context) => GetApiBloc(),
+//         ),
+//         BlocProvider(
+//           create: (context) => CartBloc(),
+//         ),
+//       ],
+//       child: MaterialApp(
+//         debugShowCheckedModeBanner: false,
+//         title: 'E-commerce App',
+//         theme: ThemeData(useMaterial3: true),
+//         home: const OnboardScreen(),
+//       ),
+//     );
+//   }
+// }
+
+///Expense tracker
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  //initialize hive
+  await Hive.initFlutter();
+
+  //open hive box
+  await Hive.openBox(hiveDb);
+
   runApp(const MyMain());
 }
 
@@ -75,20 +114,26 @@ class MyMain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        BlocProvider(
-          create: (context) => GetApiBloc(),
-        ),
-        BlocProvider(
-          create: (context) => CartBloc(),
-        ),
-      ],
+    return ChangeNotifierProvider(
+      create: (context) => ExpenseData(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'E-commerce App',
-        theme: ThemeData(useMaterial3: true),
-        home: const OnboardScreen(),
+        title: 'Expense Tracker',
+        theme: ThemeData(
+          useMaterial3: false,
+          scaffoldBackgroundColor: GlobalColors.kblack,
+          appBarTheme: const AppBarTheme(
+            centerTitle: true,
+            titleTextStyle: TextStyle(
+              color: GlobalColors.kkwhite,
+              fontWeight: FontWeight.w600,
+              fontSize: 20,
+            ),
+            elevation: 0,
+            color: Colors.blue,
+          ),
+        ),
+        home: const SplashScreen(),
       ),
     );
   }
